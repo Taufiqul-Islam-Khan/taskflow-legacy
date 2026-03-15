@@ -1,0 +1,14 @@
+src/logic/UserService.java
+src/logic/TaskService.java
+src/logic/ApplicationStartup.java
+src/logic/AdminService.java
+src/presentation/TaskPrinter.java
+src/presentation/Menu.java
+src/util/AppConfig.java
+src/util/Logger.java
+src/persistence/ITaskRepository.java
+src/persistence/FileTaskRepository.java
+src/persistence/InMemoryTaskRepository.java
+src/persistence/RepositoryFactory.java
+src/model/User.java
+src/model/Task.java
