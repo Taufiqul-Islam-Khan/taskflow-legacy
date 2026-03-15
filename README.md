@@ -15,17 +15,13 @@ A simple task management system built in Java.
 
 ## Compiling
 
-You can compile the project with:
+You can compile the project with javac. Refer to your IDE or the course notes for the exact command for your operating system.
 
-```
-javac -cp src src/.../*.java
-```
-
-Or use your preferred IDE.
+Or use your preferred IDE (VS Code with the Java Extension Pack is recommended).
 
 ## Running
 
-The program has a main entry point somewhere in the `presentation` or `logic` package.
+The program has a main entry point somewhere in the codebase — part of the activity is locating it.
 
 ## Notes
 

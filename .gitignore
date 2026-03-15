@@ -1,0 +1,15 @@
+# Compiled output
+out/
+*.class
+
+# Build artifacts
+sources.txt
+
+# VS Code Java working files
+.settings/
+.factorypath
+bin/
+
+# OS files
+.DS_Store
+Thumbs.db
