@@ -1,9 +1,12 @@
 {
-    "java.project.sourcePaths": ["src"],
+    "java.project.sourcePaths": [
+        "src"
+    ],
     "java.project.outputPath": "out",
     "java.project.referencedLibraries": [
         "lib/**/*.jar"
     ],
     "terminal.integrated.cwd": "${workspaceFolder}",
-    "java.configuration.updateBuildConfiguration": "automatic"
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.compile.nullAnalysis.mode": "disabled"
 }

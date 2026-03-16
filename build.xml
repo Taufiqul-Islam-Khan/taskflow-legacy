@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="taskflow" default="compile" basedir=".">
+
+    <description>TaskFlow - Legacy Java Project (COMP 3350)</description>
+
+    <property name="src.dir"   value="src"/>
+    <property name="out.dir"   value="out"/>
+    <property name="config.dir" value="config"/>
+
+    <target name="compile" description="Compile all Java source files">
+        <mkdir dir="${out.dir}"/>
+        <javac srcdir="${src.dir}" destdir="${out.dir}" includeantruntime="false">
+            <classpath>
+                <fileset dir="lib" includes="**/*.jar" erroronmissingdir="false"/>
+            </classpath>
+        </javac>
+    </target>
+
+    <target name="run" depends="compile" description="Run the application">
+        <java classname="logic.ApplicationStartup" classpath="${out.dir}" fork="true">
+            <arg value=""/>
+        </java>
+    </target>
+
+    <target name="clean" description="Remove compiled files">
+        <delete dir="${out.dir}"/>
+    </target>
+
+</project>

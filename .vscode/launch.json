@@ -6,7 +6,9 @@
             "name": "Run TaskFlow",
             "request": "launch",
             "mainClass": "logic.ApplicationStartup",
-            "projectName": "taskflow",
+            "classPaths": [
+                "${workspaceFolder}/out"
+            ],
             "cwd": "${workspaceFolder}"
         }
     ]
